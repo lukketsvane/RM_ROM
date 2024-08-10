@@ -65,7 +65,16 @@
     --ring: 212.7 26.8% 83.9%;
   }
 }
- 
+ /* Add this to the end of the file */
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+
+#__next {
+  height: 100%;
+}
 @layer base {
   * {
     @apply border-border;
